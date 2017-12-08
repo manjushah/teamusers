@@ -33,9 +33,6 @@ http://localhost:8000/api/users - will list all team members and create one with
 
 http://localhost:8000/api/users/1/ - will list user details with id 1 and we can edit / delete this user
 
+to run the sample tests written find the command below
 
-
-
-
-
-
+python manage.py test nessteam.tests
